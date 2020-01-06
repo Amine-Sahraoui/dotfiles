@@ -1,0 +1,22 @@
+{
+"name": "Personlization",
+	//"dockerFile": "Dockerfile",
+  
+  
+  // Open port 5500 by default
+  "appPort": 5500,
+
+  // Install ESLint and Peacock extensions
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "johnpapa.vscode-peacock"
+  ],
+
+  // Set settings
+  "settings": {
+    
+  },
+
+  // Run Bash script in .devcontainer directory
+  "postCreateCommand": "",
+}
